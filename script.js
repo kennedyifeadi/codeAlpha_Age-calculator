@@ -76,8 +76,8 @@ const getDaysInMonth = (month, year) => {
 
 const displayResult = (bdate, bMonth, bYear) =>{
     document.getElementById('years').innerHTML = bYear + "<small>Years</small>";
-    document.getElementById('months').innerHTML = bMonth  + "<small>Years</small>";
-    document.getElementById('days').innerHTML = bdate  + "<small>Years</small>";
+    document.getElementById('months').innerHTML = bMonth  + "<small>Months</small>";
+    document.getElementById('days').innerHTML = bdate  + "<small>Days</small>";
 };
 
 document.getElementById('ageBtn').addEventListener('click', ageCalculator);
